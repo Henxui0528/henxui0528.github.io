@@ -1,0 +1,10 @@
+{
+  "games": [
+    {
+      "id": "com.henxui.tienlenmiennam",
+      "name": {"vi": "Tiến Lên Miền Nam", "en": "Tien Len Southern Poker"},
+      "tagline": {"vi": "Chơi với máy hoặc bạn bè cùng Wi‑Fi", "en": "Play bots or friends on the same Wi‑Fi"},
+      "icon": "https://henxui0528.github.io/icons/tien_len.png"
+    }
+  ]
+}
