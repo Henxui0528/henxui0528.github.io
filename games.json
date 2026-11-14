@@ -1,10 +1,52 @@
 {
   "games": [
     {
+      "id": "com.henxui.covua",
+      "name": {
+        "vi": "Cờ Vua Henxui",
+        "en": "Chess Henxui"
+      },
+      "tagline": {
+        "vi": "Cờ vua đấu với máy 4 mức hoặc với bạn cùng Wi-Fi, không cần Internet",
+        "en": "Play chess vs the bot or a friend on the same Wi-Fi, no Internet needed"
+      },
+      "icon": "https://play-lh.googleusercontent.com/uRhFoljLBxgKz1-n_0XPyHY78mx7E9lCbMiAVs3SZKm31s3_tdF4bIUtGP47z1RGGpC3v3g6QAzdoJB07Jtj9KQ=s256"
+    },
+    {
+      "id": "com.henxui.gachbongxep",
+      "name": {
+        "vi": "Xếp Gạch Bông",
+        "en": "Xếp Gạch Bông"
+      },
+      "tagline": {
+        "vi": "Xếp gạch bông xưa vào lưới, xoá hàng cột, đổi nền nhà xưa tuỳ thích.",
+        "en": "Arrange the old patterned tiles in a grid, remove the rows of columns, and change the old floor as you like."
+      },
+      "icon": "https://play-lh.googleusercontent.com/CXVj2FfX15mVLbizANrKcT0OwJ7u3-spjF4KfIf-OQNihpByf947RjRFRycdTvMgr5L3rgHN2I59PrU_gfny5FQ=s256"
+    },
+    {
+      "id": "com.henxui.game2048",
+      "name": {
+        "vi": "2048 - Merge Numbers",
+        "en": "2048 - Merge Numbers"
+      },
+      "tagline": {
+        "vi": "Vuốt, gộp số, chạm tới 2048! Lưới 3×3 đến 6×6, chơi offline.",
+        "en": "Swipe, merge numbers, reach 2048! Grids from 3x3 to 6x6, play offline."
+      },
+      "icon": "https://play-lh.googleusercontent.com/TMuHLQF3YSgERdnEDqjedYZTQamauS_wDMs9B-GTAQ8DuLO4IWlGNSHvnowXWkY_K4SciLCgNCtyLHWORCJpUA=s256"
+    },
+    {
       "id": "com.henxui.tienlenmiennam",
-      "name": {"vi": "Tiến Lên Miền Nam", "en": "Tien Len Southern Poker"},
-      "tagline": {"vi": "Chơi với máy hoặc bạn bè cùng Wi‑Fi", "en": "Play bots or friends on the same Wi‑Fi"},
-      "icon": "https://henxui0528.github.io/icons/tien_len.png"
+      "name": {
+        "vi": "Tiến Lên Miền Nam Offline",
+        "en": "Tiến Lên Miền Nam"
+      },
+      "tagline": {
+        "vi": "Tiến Lên Miền Nam: chơi với máy hoặc 2–4 điện thoại qua hotspot, xu ảo.",
+        "en": "Tien Len vs bots or with 2–4 phones on one hotspot. Virtual coins only."
+      },
+      "icon": "https://play-lh.googleusercontent.com/RiezZkKzfuEcikXsEu6s9uDVO1mYpFpDlgzpyJqEs_jgu2riVZL9LqKlQUoxN1pwRMVMiIOesd9TkMjBli1ASw=s256"
     }
   ]
 }
