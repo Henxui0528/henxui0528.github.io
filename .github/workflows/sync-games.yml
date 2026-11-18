@@ -1,0 +1,34 @@
+name: Sync games list
+
+# Rebuilds games.json (the "More games by Henxui" list read by every game)
+# from the public Google Play developer page, once a day.
+on:
+  schedule:
+    - cron: "17 3 * * *"   # 03:17 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-games
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build games.json from Google Play
+        run: python3 scripts/sync_games_list.py --out games.json
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- games.json; then
+            echo "games.json unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add games.json
+          git commit -m "Update games list"
+          git push
